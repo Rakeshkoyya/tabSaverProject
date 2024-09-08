@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabSaver.css">
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet" />
+    <title>TabSaver</title>
+</head>
+
+<body>
+
+
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="header">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="tab saver logo">
+                </div>
+            </div>
+            <div class="wrapper">
+                
+                <div class="filenname">
+                    <input type="text" name="name" class="question" id="tabFileName" required autocomplete="off" />
+                    <label for="nme"><span>Name your tabFile <small class="opt">(Optional)</small></span></label>
+
+                </div>
+                <div class="savebtn">
+                    <button id="savetab"class="card_button">Save tabs</button>
+                </div>
+                <div class="importbtn">
+                    <input type="file" id="jsonFile" accept=".json" style="display: none;">
+                    <button id="importbtn" class="card_button">Import file</button>
+                </div>
+                <div class="heading">
+                    your saved tabFiles
+                </div>
+            </div>
+
+            <div class="sessionContainer">
+
+                <div class="sessionItem">
+
+
+
+                    <div> <button class="session_button">fiere</button></div>
+                    <div class="icoz"><i class="fa-solid fa-download fa-xl" title="download" ></i></div>
+                    <div class="icoz"><i class="ico fa-solid fa-trash fa-xl"  title="delete"></i></div>
+
+                    <div> <button class="session_button">fiere</button></div>
+                    <div class="icoz"><i class="fa-solid fa-download fa-xl" title="download" ></i></div>
+                    <div class="icoz"><i class="fa-solid fa-trash fa-xl"  title="delete"></i></div>
+
+                    <div> <button class="session_button">fiere</button></div>
+                    <div class="icoz"><i class="fa-solid fa-download fa-xl" title="download" ></i></div>
+                    <div class="icoz"><i class="fa-solid fa-trash fa-xl"  title="delete"></i></div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <footer id="footer">
+            <div class="separador"></div>
+            <p class="texto">Developed by: <a class="five" href="mailto:rakeshkoyya2024@gmail.com"
+                    target="_blank">rakesh_koyya</a> | <a class="five" href="https://forms.gle/Pd39vfNpFyv994ZQ7"
+                    target="_blank">feedback</a></p>
+        </footer>
+    </div>
+
+
+    <script src="tabSaver.js"></script>
+</body>
+
+</html>
